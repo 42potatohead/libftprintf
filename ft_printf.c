@@ -58,13 +58,3 @@ int	ft_printf(const char *str, ...)
 	}
 	return (len);
 }
-
-// int main(void)
-// {
-// 	// unsigned int c  = 0;
-// 	char *str = "65651651";
-// 	unsigned int len = ft_printf("%d %d %d %d %d %d %d ", INT_MIN, INT_MAX, 0, 0, ULONG_MAX);
-// 	ft_printf(" Return len: %d\n", len);
-// 	printf(" Return len: %d\n", printf("%d %d %d %d %d %d %d ", INT_MIN, INT_MAX, 0, 0, ULONG_MAX));
-// 	return (0);
-// }
